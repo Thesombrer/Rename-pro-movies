@@ -46,4 +46,7 @@ Incluye detección automática de coincidencias, renombrado masivo, control por 
 
 El programa necesita Python 3.9+ y estas dependencias instaladas:
 
+
  pip install tmdbsimple pillow requests langdetect
+
+ el archivo movies_app ya ha sido probado en fedora atomic
