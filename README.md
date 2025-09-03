@@ -49,4 +49,13 @@ El programa necesita Python 3.9+ y estas dependencias instaladas:
 
  pip install tmdbsimple pillow requests langdetect
 
- el archivo movies_app ya ha sido probado en fedora atomic
+si hay problema de incompatibilidad se puede usar el siguiente comando
+
+`chmod +x organizador peliculas-6.1.0-x86_64.appimage`
+
+`./organizador peliculas-6.1.0-x86_64.appimage --appimage-extract`
+
+`cd squashfs-root/`
+
+`./AppRun`
+
